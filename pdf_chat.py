@@ -1,8 +1,7 @@
 import streamlit as st
-from langchain import HuggingFaceHub, PromptTemplate, LLMChain
+from langchain import HuggingFaceHub
 import os
 from dotenv import load_dotenv
-import PyPDF2
 from langchain_community.document_loaders import PyPDFLoader
 import textwrap
 import tempfile
