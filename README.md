@@ -14,6 +14,11 @@ PDFChat is a project that allows users to upload PDF files, ask questions relate
 
 ![PDF Chat Schema](https://www.datascienceengineer.com/_next/image?url=%2Fblog%2Fchat-with-documents%2FLangChainWithPdf.png&w=3840&q=75)
 
+---
+
+![PDF Chat Schema](https://datasciencedojo.com/wp-content/uploads/QA-Chahtbot-Architecture.png)
+
+---
 
 You just need to replce OpenAI from the whole scene by HuggingFace🤗. That's all!!💫
 
