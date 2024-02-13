@@ -25,7 +25,6 @@ You just need to replce OpenAI from the whole scene by HuggingFace🤗. That's a
 
 ---
 
-
 ## Technologies Used 🛠️
 
 - **LangChain**: 📝 LangChain is a Python framework for building LLM-based applications designed for various natural language processing tasks.
@@ -33,6 +32,7 @@ You just need to replce OpenAI from the whole scene by HuggingFace🤗. That's a
 - **google/flan-t5-xxl Model**: 🌐 The google/flan-t5-xxl model is a large-scale language model provided by Hugging Face, which is used for generating answers to user questions.
 - **HuggingFace Embeddings**: 📚 HuggingFace Embeddings are used for extracting semantic embeddings from text data.
 - **FAISS Vector Database**: 🔍 FAISS (Facebook AI Similarity Search) vector database is used for storing and retrieving document vectors efficiently.
+- **Streamlit**: 🌐 Streamlit is a Python library that allows you to create interactive web applications for machine learning and data science projects.
 
 ## Screenshots 📸
 ![Home Screen](https://github.com/SrijanShovit/PDFChat/blob/main/Screenshots/Screenshot%20(52).png)
