@@ -5,7 +5,8 @@ PDFChat is a project that allows users to upload PDF files, ask questions relate
 ## Features 🚀
 
 - **PDF Upload**: 📁 Users can upload PDF files containing textual content.
-- **Chunk Splitting**: 🔖 PDF documents are split into smaller chunks for efficient processing.
+- **Chunk Splitting**: 🔖 PDF documents are split into smaller chunks using RecursiveCharacterTextSplitter(size=1000 and overlap=200) for efficient processing.
+- **Embedding**: 🫙 Text is given numerical representation in a vector space.
 - **Vector Database Storage**: 🗄️ FAISS vector database is used for storing and retrieving document vectors.
 - **Question-Answering**: ❓ Users can ask questions related to the content of the uploaded PDF files.
 - **Answer Generation**: 🧠 Answers to user questions are generated using Google's Flan-T5-XXL model via LangChain pipeline.
@@ -31,7 +32,6 @@ You just need to replce OpenAI from the whole scene by HuggingFace🤗. That's a
 - **HuggingFaceHub**: 🤗 HuggingFaceHub is a repository for hosting and sharing Hugging Face models, including pre-trained language models.
 - **google/flan-t5-xxl Model**: 🌐 The google/flan-t5-xxl model is a large-scale language model provided by Hugging Face, which is used for generating answers to user questions.
 - **HuggingFace Embeddings**: 📚 HuggingFace Embeddings are used for extracting semantic embeddings from text data.
-- **RecursiveCharacterTextSplitter**: 📑 Chunk splitting is used to break down PDF documents into smaller segments for efficient processing.
 - **FAISS Vector Database**: 🔍 FAISS (Facebook AI Similarity Search) vector database is used for storing and retrieving document vectors efficiently.
 
 ## Screenshots 📸
